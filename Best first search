@@ -1,0 +1,64 @@
+BEST FIRST SEARCH
+
+
+Open: I(4)
+Actual: ()
+Successors: ()
+Closed: ()
+
+Open: I(4)
+Actual: I(4)
+Successors: G(5), Q(3), W(3)
+Closed: I(4)
+
+Open: Q(3), W(3), G(5)
+Actual: Q(3)
+Successors: P(4), R(2)
+Closed: I(4), Q(3)
+
+Open: R(2), W(3), P(4), G(5)
+Actual: R(2)
+Successors: T(1)
+Closed: I(4), Q(3), R(2)
+
+Open: T(1), W(3), P(4), G(5)
+Actual: T(1)
+Successors: K(2)
+Closed: I(4), Q(3), R(2), T(1)
+
+Open: K(2), W(3), P(4), G(5)
+Actual: K(2)
+Successors: C(3), M(1)
+Closed: I(4), Q(3), R(2), T(1), K(2)
+
+Open: M(1), C(3), W(3), P(4), G(5)
+Actual: M(1)
+Successors:  D(2), N(2), F(0)
+Closed: I(4), Q(3), R(2), T(1), K(2), M(1)
+
+Open: F(0), D(2), N(2), C(3), W(3), P(4), G(5)
+Actual: F(0)
+Successors:  
+Closed: I(4), Q(3), R(2), T(1), K(2), M(1), F(0)
+
+
+We have F in actual, we found the solution.
+The path followed is I, Q, R, T, K, M, F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

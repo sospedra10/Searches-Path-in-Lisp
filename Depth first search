@@ -1,0 +1,102 @@
+DEPTH FIRST SEARCH
+
+
+Open: I
+Actual: ()
+Successors: ()
+Closed: ()
+
+Open: I
+Actual: I
+Successors: G, Q, W
+Closed: I
+
+Open: G, Q, W
+Actual: G
+Successors: P
+Closed: G
+
+Open: P, Q, W
+Actual: P
+Successors: ()
+Closed: G, P
+
+Open: Q, W
+Actual: Q
+Successors: R
+Closed: G, P, Q
+
+Open: R, W
+Actual: R
+Successors: T
+Closed: G, P, Q
+
+Open: T, W
+Actual: T
+Successors: K
+Closed: G, P, Q, T
+
+Open: K, W
+Actual: K
+Successors: C, M
+Closed: G, P, Q, T, K
+
+Open: C, M, W
+Actual: C
+Successors: A
+Closed: G, P, Q, T, K, C
+
+Open: A, M, W
+Actual: A
+Successors: B
+Closed: G, P, Q, T, K, C, A
+
+Open: B, M, W
+Actual: B
+Successors: D
+Closed: G, P, Q, T, K, C, A, B
+
+Open: D, M, W
+Actual: D
+Successors: ()
+Closed: G, P, Q, T, K, C, A, B, D
+
+Open: M, W
+Actual: M
+Successors: F, N
+Closed: G, P, Q, T, K, C, A, B, D, M
+
+Open: F, N, W
+Actual: F
+Successors: ()
+Closed: G, P, Q, T, K, C, A, B, D, M, F
+
+We have F in actual
+We found the solution using the path I, Q, R, T, K, M, F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

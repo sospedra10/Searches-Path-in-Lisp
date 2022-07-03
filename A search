@@ -1,0 +1,62 @@
+A* SEARCH
+
+
+Open: I(0+4=4)
+Actual: ()
+Successors: ()
+Closed: ()
+
+Open: I(0+4=4)
+Actual: I(0+4=4)
+Successors: G(1+5=6), Q(1+3=4), W(1+3=4)
+Closed: I(0+4=4)
+
+Open: Q(1+3=4), W(1+3=4), G(1+5=6)
+Actual: Q(1+3=4)
+Successors: P(2+4=6), R(2+2=4)
+Closed: I(0+4=4), Q(1+3=4)
+
+Open: R(2+2=4), W(1+3=4), G(1+5=6), P(2+4=6)
+Actual: R(2+2=4)
+Successors: T(3+1=4) 
+Closed: I(0+4=4), Q(1+3=4), R(2+2=4)
+
+Open: T(3+1=4), W(1+3=4), G(1+5=6), P(2+4=6)
+Actual: T(3+1=4) 
+Successors: K(4+2=6)
+Closed: I(0+4=4), Q(1+3=4), R(2+2=4), T(3+1=4) 
+
+Open: W(1+3=4), G(1+5=6), K(4+2=6), P(2+4=6)
+Actual: W(1+3=4)
+Successors: K(2+2=4)
+Closed: I(0+4=4), Q(1+3=4), R(2+2=4), T(3+1=4), W(1+3=4) 
+
+Open: K(2+2=4), G(1+5=6), P(2+4=6)
+Actual: K(2+2=4)
+Successors: C(3+3=6), M(3+1=4)
+Closed: I(0+4=4), Q(1+3=4), R(2+2=4), T(3+1=4), W(1+3=4), K(2+2=4) 
+
+Open: M(3+1=4), C(3+3=6), G(1+5=6), P(2+4=6)
+Actual: M(3+1=4)
+Successors: D(4+2=6), N(4+2=6), F(4+0=4)
+Closed: I(0+4=4), Q(1+3=4), R(2+2=4), T(3+1=4), W(1+3=4), K(2+2=4),
+		M(3+1=4)
+		
+Open: F(4+0=4), C(3+3=6), D(4+2=6), G(1+5=6), N(4+2=6), P(2+4=6)
+Actual: F(4+0=4))
+Successors:  
+Closed: I(0+4=4), Q(1+3=4), R(2+2=4), T(3+1=4), W(1+3=4), K(2+2=4),
+		M(3+1=4), F(4+0=4)
+
+
+We have F in actual
+We have arrived to the solution and obtained the path I, W, K, M, F
+
+
+
+
+
+
+
+
+

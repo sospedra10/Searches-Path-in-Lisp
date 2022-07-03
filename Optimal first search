@@ -1,0 +1,107 @@
+BEST FIRST SEARCH
+
+
+Open: I(0)
+Actual: ()
+Successors: ()
+Closed: ()
+
+Open: ()
+Actual: I(0)
+Successors: G(1), Q(1), W(1)
+Closed: I(0)
+
+Open: G(1), Q(1), W(1)
+Actual: G(1)
+Successors: P(2)
+Closed: I(0), G(1)
+
+Open: Q(1), W(1), P(2)
+Actual: Q(1)
+Successors: R(2)
+Closed: I(0), G(1), Q(1)
+
+Open: W(1), P(2), R(2)
+Actual: W(1)
+Successors: K(2)
+Closed: I(0), G(1), Q(1), W(1)
+
+Open: k(2), P(2), R(2)
+Actual: K(2)
+Successors: C(3), M(3), T(3)
+Closed: I(0), G(1), Q(1), W(1), K(2)
+
+Open: P(2), R(2), C(3), M(3), T(3)
+Actual: P(2)
+Successors: ()
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2)
+
+Open: R(2), C(3), M(3), T(3)
+Actual: R(2)
+Successors: ()
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2), R(2)
+
+Open: C(3), M(3), T(3)
+Actual: C(3)
+Successors: A(4)
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2), R(2), C(3)
+
+Open: M(3), T(3), A(4)
+Actual: M(3)
+Successors: D(4), N(4), F(4)
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2), R(2), C(3), M(3)
+
+Open: T(3), A(4), D(4), F(4), N(4)
+Actual: T(3)
+Successors: ()
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2), R(2), C(3), M(3), T(3)
+
+Open: A(4), D(4), F(4), N(4)
+Actual: A(4)
+Successors: B(5)
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2), 
+		R(2), C(3), M(3), T(3), A(4)
+		
+Open: D(4), F(4), N(4), B(5)
+Actual: D(4)
+Successors: ()
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2), 
+		R(2), C(3), M(3), T(3), A(4), D(4)
+		
+Open: D(4), F(4), N(4), B(5)
+Actual: D(4)
+Successors: ()
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2), 
+		R(2), C(3), M(3), T(3), A(4), D(4)
+		
+Open: F(4), N(4), B(5)
+Actual: F(4)
+Successors: ()
+Closed: I(0), G(1), Q(1), W(1), K(2), P(2), 
+		R(2), C(3), M(3), T(3), A(4), D(4), F(4)
+		
+We have F in actual, we arrived to the solution
+The path followed is I, W, K, M, F
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
